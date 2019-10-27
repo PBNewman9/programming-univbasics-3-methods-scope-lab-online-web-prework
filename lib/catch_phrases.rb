@@ -13,7 +13,6 @@ def link
   puts danger 
 end
 
-def any_phrase
-  phrase = "Do A Barrel Roll!"
-  puts any_phrase #{phrase}
+def any_phrase (phrase = "Do a Barrel Roll!")
+  puts phrase
 end
